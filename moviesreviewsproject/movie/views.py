@@ -5,5 +5,5 @@ from django.http import HttpResponse
 
 def home(request):
   #return HttpResponse('<h1>Mi Primera Pagina Web Con Django</h1>')
-  return render(request, 'home.html' , {'name':'Yhilmar'})
+  return render(request, 'home.html' , {'name':'Yhilmar Andres Chaverra'})
 
